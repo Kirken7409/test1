@@ -1,0 +1,92 @@
+html {
+	font-size:		14px ;
+	font-family:		"Liberation Sans", "Aileron", "Archivo", FreeSerif, serif ;
+	line-height:		1.2em ;
+}
+
+body {
+	display:		block ;
+	background-color:	#1F1F1F ;
+	color:			#FF0000 ;
+
+	margin-top:		0 ;
+	margin-right:		0 ;
+	margin-bottom:		0 ;
+	margin-left:		0 ;
+}
+
+/*
+ ************************************************************************
+ */
+
+.game-grid {
+	display:		grid ;
+	grid-template-columns:	300px 300px  60px ;
+	grid-template-rows:	 40px 300px 150px ;
+}
+
+.game-item-1 {
+	grid-column:		1 / span 3 ;
+	grid-row:		1 / span 1 ;
+	border:			1px solid #8FCF8F ;
+	background-color:	#1F1F1F ;
+}
+
+.game-item-2 {
+	grid-column:		3 / span 1 ;
+	grid-row:		2 / span 2 ;
+	border:			1px solid #8FCF8F ;
+	background-color:	#1F1F1F ;
+}
+
+.game-item-3 {
+	grid-column:		1 / span 2 ;
+	grid-row:		2 / span 1 ;
+	border:			1px solid #8FCF8F ;
+	background-color:	#1F1F1F ;
+}
+
+.game-item-4 {
+	grid-column:		1 / span 1 ;
+	grid-row:		3 / span 1 ;
+	/*
+	box-sizing:		border-box ;
+	*/
+	border:			1px solid #8FCF8F ;
+	background-color:	#1F1F1F ;
+
+	padding-left:		3 em ;
+
+	display:		block ;
+	color:			#FFCF4F ;
+
+	word-wrap:		break-word ;
+	/*
+	overflow-y:		scroll ;
+	overflow-y:		auto ;
+	*/
+	overflow-anchor:	none ;
+	scrollbar-color:	grey-black ;
+	scrollbar-width:	thin ;
+	scroll-padding-bottom:	20px ;
+
+	/* In case you need to kick off effect immediately, this plus JS */
+	/*
+	height:			100.001vh ;
+	*/
+}
+
+
+.game-item-5 {
+	grid-column:		2 / span 1 ;
+	grid-row:		3 / span 1 ;
+	border:			1px solid #8FCF8F ;
+	background-color:	#1F1F1F ;
+}
+
+div {
+	padding-top:		1 em ;
+	padding-right:		0 ;
+	padding-bottom:		1 em ;
+	padding-left:		0 ;
+}
