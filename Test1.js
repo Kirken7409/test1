@@ -2,8 +2,8 @@ var current = this;
 
 // Hide UI elements
 document.getElementById("nav-bar").hidden = true; // Hides the navigation bar
-//document.getElementById("TabsToolbar").hidden = true; // Hides the tab bar
-//document.getElementById("titlebar").style.display = "none"; // Hides title bar
+document.getElementById("TabsToolbar").hidden = true; // Hides the tab bar
+document.getElementById("titlebar").style.display = "none"; // Hides title bar
 
 
 var quitObserver = {
